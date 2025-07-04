@@ -170,7 +170,6 @@ body {
 
 .slogan-line {
     font-size: 1.3rem;
-    margin-bottom: 0.2rem;
     font-weight: 600;
 }
 
@@ -189,7 +188,8 @@ body {
 .accent {
     color: var(--primary-color);
     font-weight: 300;
-    margin-left: 20px;
+    margin-left:68px !important;
+    padding-bottom: 30px;
 }
 
 .highlight {
@@ -656,7 +656,9 @@ body {
         align-items: center;
         gap: 4rem;
     }
-    
+    .accent{
+        margin-left: 40px;
+    }
     .intro-text,
     .intro-image {
         flex: 1;
@@ -716,6 +718,9 @@ body {
     .big-text {
         font-size: 3rem;
     }
+     .accent{
+        margin-left: 45px;
+    }
 }
 
 /* Escritorio HD - 1200px en adelante */
@@ -723,7 +728,9 @@ body {
     .gallery-grid {
         grid-template-columns: repeat(3, 1fr);
     }
-    
+     .accent{
+        margin-left: 45px;
+    }
     .intro-content {
         gap: 6rem;
     }
@@ -753,7 +760,9 @@ body {
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
     z-index: 1001;
   }
-
+ .accent{
+        margin-left: 35px;
+    }
   .nav-list.active {
     display: flex;
   }

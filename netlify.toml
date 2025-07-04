@@ -1,7 +1,5 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
-  functions = "netlify/funciones"
+  publish = "."  # Esto le dice a Netlify que publique desde la raíz
 
 [[redirects]]
   from = "/*"
