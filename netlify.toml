@@ -1,7 +1,0 @@
-[build]
-  publish = "."  # Esto le dice a Netlify que publique desde la raíz
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
